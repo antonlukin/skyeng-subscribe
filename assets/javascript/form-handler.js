@@ -72,7 +72,7 @@
 
     // Create ajax request
     var request = new XMLHttpRequest();
-    request.open('POST', '/send-form.php', true);
+    request.open('POST', '/skyeng-subscribe/send-form.php', true);
 
     // Stop ajax loader on xhr done
     request.onreadystatechange = function () {
