@@ -5,7 +5,7 @@
 
 ## Installation
 
-1. Generate `config/google-credentials.json` file via Google Cloud Console and enable Spreadsheets Api  f
+1. Generate `config/google-credentials.json` file via Google Cloud Console and enable Spreadsheets Api  
 2. Use `composer install` to install vendor packages  
 3. Launch `docker-compose up -d` and locate to http://localhost/skyeng-subscribe
 
