@@ -1,0 +1,19 @@
+.subscribe-form__text {
+  display: block;
+  cursor: default;
+
+  width: 100%;
+  margin: 0.75rem 0 2rem;
+
+  font-size: 1.5rem;
+  line-height: 1.375;
+
+  -webkit-font-smoothing: antialiased;
+
+  @media screen and (max-width: 479px) {
+    margin: 0.5rem 0 1rem;
+
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+}

@@ -1,0 +1,21 @@
+.subscribe-form__agreement {
+  display: block;
+  cursor: default;
+
+  width: 10rem;
+  margin-top: 0.75rem;
+
+  text-align: center;
+  font-size: 0.6875rem;
+  line-height: 1.25;
+
+  a {
+    text-decoration: none;
+    color: $color-links;
+  }
+
+  @media screen and (max-width: 599px) {
+    order: 2;
+    margin: 1rem auto 0;
+  }
+}

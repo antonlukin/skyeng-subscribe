@@ -1,0 +1,14 @@
+.subscribe-form__content {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  z-index: 1;
+
+  &.subscribe-form__content--result > * {
+    visibility: hidden;
+  }
+
+  &.subscribe-form__content--result > .subscribe-form__result {
+    visibility: visible;
+  }
+}

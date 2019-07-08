@@ -1,0 +1,28 @@
+.subscribe-form__error {
+  display: block;
+  cursor: default;
+
+  visibility: hidden;
+
+  width: calc(100% - 11rem);
+  margin-top: 0.75rem;
+  margin-right: auto;
+
+  font-size: 0.8125rem;
+  line-height: 1;
+
+  color: $color-error;
+
+  &.subscribe-form__error--show {
+    visibility: visible;
+  }
+
+  @media screen and (max-width: 599px) {
+    width: 100%;
+    min-height: 2rem;
+    margin: 0;
+    padding: 0.5rem 0;
+
+    text-align: center;
+  }
+}

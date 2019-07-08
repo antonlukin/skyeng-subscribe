@@ -1,0 +1,52 @@
+// Import styles used only for demo
+@import "demo.scss";
+
+// Upload custom font
+@import "fonts.scss";
+
+// Set variables
+$color-dark: #000;
+$color-light: #fff;
+
+
+.subscribe-form {
+  display: block;
+  position: relative;
+
+  width: 100%;
+  padding: 2.5rem 3.75rem 1rem;
+
+  p {
+    margin: 0;
+  }
+
+  &.subscribe-form--business {
+    $color-primary: #5700ff;
+    $color-error: #f00;
+    $color-links: #5700ff;
+
+    color: $color-dark;
+    background-color: darken(#ffffff, 6.67);
+
+    box-shadow: 0.5rem 0.5rem 0 0 $color-primary;
+
+    @import "subscribe-form/*.scss";
+  }
+
+  &.subscribe-form--sherlock {
+    $color-primary: #8145F4;
+    $color-error: #FFDC62;
+    $color-links: #FFDC62;
+
+    color: $color-light;
+    background-image: url('images/sherlock-background.jpg');
+    background-size: cover;
+    background-position: center 25%;
+
+    @import "subscribe-form/*.scss";
+  }
+
+  @media screen and (max-width: 479px) {
+    padding: 1.5rem 1.5rem 1rem;
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+public/fonts/
+vendor/
+
+yarn-error.log
+google-credentials.json
