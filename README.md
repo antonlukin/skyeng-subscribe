@@ -1,7 +1,6 @@
 # Skyeng subscribe form
 
-**Contributors:** Anton Lukin  
-**Version:** 1.0  
+Google Spreadsheet submission sample form.
 
 ## Installation
 
